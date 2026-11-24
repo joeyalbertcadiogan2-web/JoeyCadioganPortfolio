@@ -1,0 +1,10 @@
+.vercel
+
+# Dependencies and local QA output
+tools/node_modules/
+tools/shots/
+
+# Kept local only: original photo, raw Higgsfield outputs, exported GLB
+portrait.png
+assets/src/
+assets/models/

@@ -1,0 +1,24 @@
+{
+  "name": "joey-portfolio-tools",
+  "version": "1.0.0",
+  "description": "Build and preview tools for the portfolio",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node serve.mjs",
+    "assets": "node process-assets.mjs",
+    "glb": "node export-glb.mjs",
+    "video": "node prepare-video.mjs",
+    "shots": "node shoot.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "puppeteer-core": "^23.6.0",
+    "sharp": "^0.33.5",
+    "three": "^0.169.0"
+  },
+  "private": true
+}

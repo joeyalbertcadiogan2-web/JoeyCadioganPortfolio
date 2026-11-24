@@ -1,0 +1,7 @@
+# Only the website is deployed. Originals, tools and the GLB stay local.
+tools/
+assets/src/
+assets/models/
+portrait.png
+README.md
+.vercelignore
