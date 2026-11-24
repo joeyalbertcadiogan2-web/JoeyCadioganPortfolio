@@ -11,13 +11,23 @@ node tools/serve.mjs        # then open http://localhost:5173
 ```
 
 The page uses ES modules, so open it through the server rather than by double-clicking
-`index.html`. To deploy, upload `index.html` and `assets/` (except `assets/src/`) to any static host
-(Netlify, Vercel, Cloudflare Pages, GitHub Pages).
+`index.html`.
+
+## Deploying
+
+The Vercel project is connected to this GitHub repo: every push to `main` deploys to
+https://joey-cadiogan.vercel.app automatically, and pushes to other branches get a preview URL.
+
+```bash
+git add -A
+git commit -m "Describe the change"
+git push
+```
 
 ## Editing the numbers
 
 The case-study results and About stats are example figures written into `index.html`
-(About `.stats` and the three `.case` cards). Edit them there, then run `vercel deploy --prod`.
+(About `.stats` and the three `.case` cards). Edit them there, then commit and push.
 
 ## Project layout
 
